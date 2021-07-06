@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Thiago Santos",
@@ -15,8 +15,8 @@
     "heroku-postbuild": "npm run build:prod"
   },
   "engines": {
-    "node": "^14.17.0",
-    "npm": "^6.14.13"
+    "node": "^14.17.0",    
+    "yarn": "1.22.10"
   },
   "dependencies": {
     "@babel/core": "^7.14.3",
