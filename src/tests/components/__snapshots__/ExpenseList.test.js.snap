@@ -37,5 +37,8 @@ exports[`Deveria renderizar ExpenseList sem expenses 1`] = `
   <h1>
     Lista de despesas
   </h1>
+  <p>
+    Não há despesas
+  </p>
 </div>
 `;
