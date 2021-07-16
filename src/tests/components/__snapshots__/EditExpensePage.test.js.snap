@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Deveria renderizar EditExpensePage Corretamente 1`] = `
+exports[`Deveria renderizar startEditExpense Corretamente 1`] = `
 <div>
   <ExpenseForm
     expense={
