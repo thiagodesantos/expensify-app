@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deveria renderizar o Login corretamente 1`] = `
+<div>
+  <button>
+    Login
+  </button>
+</div>
+`;
