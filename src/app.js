@@ -5,12 +5,12 @@ import AppRouter, { history } from './routers/AppRouter';
 import configureStore from './store/configureStore'
 import { startSetExpenses } from './actions/expenses'
 import { login, logout } from './actions/auth'
-import getVisibleExpenses from './selectors/expenses'
 import 'react-dates/initialize';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
+import LoadingPage from './components/LoadingPage'
 
 const store = configureStore();
 const jsx = (
@@ -26,7 +26,7 @@ const renderApp = () => {
     }
 };
 
-ReactDOM.render(<p>Carregando....</p>, document.getElementById('app'));
+ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
     if(user) {

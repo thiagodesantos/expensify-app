@@ -1,9 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Deveria renderizar o Login corretamente 1`] = `
-<div>
-  <button>
-    Login
-  </button>
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Despesinhas
+    </h1>
+    <p>
+      É hora de colocar suas despesas sobre controle!
+    </p>
+    <button
+      className="button"
+    >
+      Login com o Google
+    </button>
+  </div>
 </div>
 `;
